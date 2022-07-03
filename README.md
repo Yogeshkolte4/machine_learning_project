@@ -27,13 +27,16 @@ For windows: conda activate E:\Complete_python\Krishna\Fullstack\Class_execution
 pip install -r requirements.txt
 ```
 To add files in system on git
+
 '''
 git add .
 '''
 OR
+
 '''
 git add <file_name>
 '''
+
 > Note: To ignore file or folder from git we can write name of file/folder in .gitignore file
 
 To check the git status 
