@@ -90,7 +90,7 @@ docker images
 Run dicker image
 ```
 docker run -p 5000:5000 -e PORT=5000 <IMAGE ID>
-
+```
 To check running container in docker
 ```
 docker ps
@@ -98,3 +98,4 @@ docker ps
 To stop runnning docker container
 ```
 docker stop <CONTAINER ID>
+```
