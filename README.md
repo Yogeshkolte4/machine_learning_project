@@ -25,6 +25,7 @@ For windows: conda activate E:\Complete_python\Krishna\Fullstack\Class_execution
 ```
 
 ```
+
 pip install -r requirements.txt
 ```
 To add files in system on git
@@ -48,3 +49,25 @@ To check all version maintained by git
 ```
 git log
 ```
+To check remote url 
+```
+git remote -v
+```
+To create version/commit all changes by git
+```
+git commit -m "message"
+```
+
+To send version/changes to github
+```
+git push origin main
+```
+
+To check remote url 
+```
+git remote -v
+```
+To setup CI/CD pipeline in heroku we need 3 information
+1. HEROKU_EMAIL = yogeshkkolte@gmail.com
+2. HEROKU_API_KEY = <>
+3. HEROKU_APP_NAME = ml-regression-app
