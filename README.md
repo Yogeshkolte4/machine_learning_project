@@ -70,8 +70,31 @@ To check remote url
 ```
 git remote -v
 ```
-Connect Github to Heroku
+Connect Github to Heroku to strat deployment
 To setup CI/CD pipeline in heroku we need 3 information
 1. HEROKU_EMAIL = yogeshkkolte@gmail.com
-2. HEROKU_API_KEY = <>
-3. HEROKU_APP_NAME = ml-regression-app
+2. HEROKU_API_KEY = 371fd6b0-d1f1-4d84-bb39-3e8fcea76551 # Find API_KEY in account setting
+3. HEROKU_APP_NAME = ml-regression-cicd
+
+BUILD DOCKER IMAGE
+```
+docker build -t <image_name>:<tagname> .
+```
+> Note: Image name for docker must be in lowercase
+
+
+TO list the docker images
+```
+docker images
+```
+Run dicker image
+```
+docker run -p 5000:5000 -e PORT=5000 <IMAGE ID>
+
+To check running container in docker
+```
+docker ps
+```
+To stop runnning docker container
+```
+docker stop <CONTAINER ID>
