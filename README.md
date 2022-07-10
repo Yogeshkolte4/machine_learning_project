@@ -38,6 +38,11 @@ OR
 ```
 git add <file_name>
 ```
+To Discard the changes in working directory
+```
+git restore
+
+```
 
 > Note: To ignore file or folder from git we can write name of file/folder in .gitignore file
 
