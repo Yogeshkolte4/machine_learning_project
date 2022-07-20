@@ -78,7 +78,7 @@ git remote -v
 Connect Github to Heroku to strat deployment
 To setup CI/CD pipeline in heroku we need 3 information
 1. HEROKU_EMAIL = yogeshkkolte@gmail.com
-2. HEROKU_API_KEY = 371fd6b0-d1f1-4d84-bb39-3e8fcea76551 # Find API_KEY in account setting
+2. HEROKU_API_KEY =  # Find API_KEY in account setting
 3. HEROKU_APP_NAME = ml-regression-cicd
 
 BUILD DOCKER IMAGE
